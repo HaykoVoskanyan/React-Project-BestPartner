@@ -1,0 +1,25 @@
+.FindPerfect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 0px;
+  gap: 50px;
+  &__right{
+    width: 720px;
+    height: 325px;
+    margin-bottom: 45px;
+    h2{
+      font-weight: 700;
+      font-size: 35px;
+      margin-bottom: 35px;
+    }
+    p{
+      line-height: 28.8px;
+      font-size: 18px;
+      margin-bottom: 20px;
+      padding: 0px 45px 0px 0px;
+      color: #000000;
+      font-weight: 500;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+@import "../../sass/colors";
+
+.slider-container {
+  margin: 0px -55px;
+  .Slider-Image {
+    position: relative;
+  }
+
+  .Slider-Image > img {
+    height: 1026px;
+  }
+
+  .gradient-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      rgba($header-gradient-color, 0.3),
+      rgba($header-gradient-color, 1)
+    );
+  }
+
+  .slick-dots {
+    bottom: 10px;
+  }
+
+  .slider-container-HeaderSection {
+    position: absolute;
+    top: 800px;
+    left:0;
+    right: 0;
+    bottom: 0;
+
+  }
+}

@@ -1,0 +1,15 @@
+@import "/src/sass/colors";
+
+.Footer_centr-section {
+  height: 232px;
+  width: 248px;
+  position: relative;
+  margin-left: auto;
+  strong {
+    position: absolute;
+    top: -45px;
+    color: $grey-700;
+    font-size: 18px;
+    width: 250px;
+  }
+}

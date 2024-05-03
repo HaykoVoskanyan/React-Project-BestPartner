@@ -1,0 +1,43 @@
+.Questions {
+    padding: 0 60px;
+    &__title{
+        margin: 75px auto;
+        text-align: center;
+    }
+    &__section {
+        display: flex;
+        justify-content: space-between;
+        &__left {
+            width: 544px;
+            ::-webkit-scrollbar {
+              width: 6px;
+            }
+            ::-webkit-scrollbar-track {
+              box-shadow: inset 0 0 5px grey; 
+              border-radius: 10px;
+            }
+            ::-webkit-scrollbar-thumb {
+              background: #B741FF
+              ; 
+              border-radius: 10px;
+            }
+            ::-webkit-scrollbar-thumb:hover {
+              background: #B741FF
+              ; 
+            }
+            &__text{
+                overflow-y: scroll;
+                height: 300px;
+                line-height: 44px;
+                
+            }
+        }
+        &__right {
+            width: 410px;
+            &__text{
+                line-height: 33px;
+            }
+        }
+    }
+}
+

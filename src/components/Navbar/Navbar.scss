@@ -1,0 +1,22 @@
+@import "../../sass//colors";
+
+.Footer__nav {
+  nav {
+    ul {
+      display: flex;
+      gap: 20px;
+      flex-direction: column;
+      a {
+        color: $main-black;
+        font-weight: 500;
+        font-size: 24px;
+      }
+      li {
+        transition: 0.4s;
+      }
+      li:hover {
+        transform: translate(-5px, -5px);
+      }
+    }
+  }
+}

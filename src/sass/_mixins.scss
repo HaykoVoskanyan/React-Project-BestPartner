@@ -1,0 +1,10 @@
+@mixin btnStyle() {
+  height: 40px;
+  width: 130px;
+  border: 1px;
+  border-radius: 8px;
+  background-color: $grey-700;
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
+}

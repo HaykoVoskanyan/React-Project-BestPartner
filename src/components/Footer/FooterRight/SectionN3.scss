@@ -1,0 +1,64 @@
+@import "/src//sass/colors";
+@import "/src/sass/mixins";
+
+.Footer__right-section {
+  margin: 50px 20px 0px 0px;
+  &-qr {
+    display: flex;
+    gap: 20px;
+  }
+  &-btns {
+    display: flex;
+    gap: 22px;
+    margin-top: 20px;
+  }
+  &-btn1,
+  &-btn2 {
+    @include btnStyle();
+    i {
+      color: $grey-200;
+      margin-top: 8px;
+      font-size: 22px;
+      padding-left: 5px;
+    }
+    .btn1__text {
+      display: flex;
+      flex-direction: column;
+      color: $grey-200;
+      margin-top: 5px;
+      gap: 2px;
+      P:nth-child(1) {
+        font-size: 9px;
+        text-align: start;
+        letter-spacing: 1.5px;
+        color: $grey-200;
+      }
+      P:nth-child(2) {
+        font-style: 14px;
+      }
+    }
+  }
+  &-btn2 {
+    img {
+      margin-top: 7px;
+      padding-left: 5px;
+    }
+    .btn2__text {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      text-align: start;
+      P:nth-child(1) {
+        font-size: 9px;
+        text-align: start;
+        color: $grey-200;
+        margin-top: 5px;
+        letter-spacing: 1.5px;
+      }
+      P:nth-child(2) {
+        font-size: 14px;
+        color: $grey-10;
+      }
+    }
+  }
+}

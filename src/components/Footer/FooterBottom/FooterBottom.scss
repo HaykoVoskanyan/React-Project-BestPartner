@@ -1,0 +1,17 @@
+@import "/src/sass/colors";
+
+.FooterBottom {
+  border-top: 1px solid $grey-700;
+  opacity: 80%;
+  height: 78px;
+  background-color: $body-background;
+  p {
+    text-align: center;
+    color: $grey-700;
+    margin-top: 30px;
+    span {
+      font-weight: 800;
+      color: $grey-700;
+    }
+  }
+}

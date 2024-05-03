@@ -1,0 +1,58 @@
+@import "slick-carousel/slick/slick.css";
+.Next {
+  display: flex;
+  margin: 100px auto;
+  gap: 100px;
+  &__left {
+    padding-right: 20px;
+    width: 650px;
+    &__title {
+      font-size: 36px;
+    }
+    &__parag {
+      font-size: 18px;
+      margin-top: 40px;
+      font-weight: 500;
+      line-height: 28px;
+    }
+    &__parag2 {
+      font-size: 18px;
+      margin-top: 24px;
+      font-weight: 500;
+      line-height: 28px;
+    }
+  }
+}
+.Next__right {
+  width: 422px;
+  margin-top: 65px;
+}
+.slick-dots {
+  display: flex !important;
+  justify-content: center;
+  margin-top: 46px;
+}
+.slick-dots button {
+  background: grey;
+  color: grey;
+  border: none;
+  margin-left: 12px;
+  border-radius: 36px;
+  width: 12px;
+  height: 12px;
+}
+.slick-active button {
+  color: #3478eb;
+  background: #3478eb;
+}
+.Post {
+  display: flex !important;
+  height: 76px;
+  margin-top: 10px;
+  &__paragraph {
+    padding: 24px;
+    border-radius: 24px;
+    background: #edeef3;
+    margin-left: 32px;
+  }
+}

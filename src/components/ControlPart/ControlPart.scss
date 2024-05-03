@@ -1,0 +1,41 @@
+@import "../../sass/colors";
+
+.ControlPart {
+  margin: 0 auto;
+
+  h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 44px;
+    height: 64px;
+    margin-block: 32px;
+  }
+
+  &__icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+
+    .icon {
+      border-radius: 60px;
+      background-color: $control-icons-bcc;
+      padding: 56px 40px 56px 40px;
+      font-size: 24px;
+      p {
+        line-height: 38px;
+        margin: 0px auto;
+        font-weight: 400;
+      }
+      img {
+        display: inline-block;
+        margin-bottom: 50px;
+      }
+      h3 {
+        font-weight: 700;
+        margin-bottom: 16px;
+        line-height: 30px;
+      }
+    }
+  }
+}

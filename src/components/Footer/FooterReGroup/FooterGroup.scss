@@ -1,0 +1,9 @@
+@import "/src/sass/colors";
+.Footer {
+  height: 481px;
+  background-color: $body-background;
+  margin-top: 50px;
+  padding: 65px 60px;
+  display: flex;
+  gap: 60px;
+}
